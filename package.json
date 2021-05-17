@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "express": "4.17.1"
+  },
+  "name": "express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "RezaiMartyna <73740511+RezaiMartyna@users.noreply.github.com>",
+  "license": "MIT"
+}
