@@ -10,10 +10,9 @@ app.use((req, res, next) => {
   next();
 });
 
-  app.use('/user/', (req, res, next) => {
+app.use('/user/', (req, res,) => {
     res.show('forbidden.html');
-    next();
-  });
+});
 
 app.get('/', (req, res) => {
   res.show('home.html');
