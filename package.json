@@ -1,10 +1,17 @@
 {
   "dependencies": {
-    "express": "4.17.1"
+    "express": "4.17.1",
+    "express-handlebars": "3.1.0"
   },
   "name": "express",
   "version": "1.0.0",
   "main": "index.js",
   "author": "RezaiMartyna <73740511+RezaiMartyna@users.noreply.github.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  }
 }
